@@ -38,7 +38,7 @@
     <PropertyGroup Condition="'$(Base)'!=''">
         <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
         <SanitizedProjectName>VirtualTreesR</SanitizedProjectName>
-        <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
+        <DCC_DcuOutput>..\..\Lib\$(Platform)</DCC_DcuOutput>
         <DCC_HppOutput>..\..\Source</DCC_HppOutput>
         <DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
         <DllSuffix>26</DllSuffix>
@@ -55,6 +55,8 @@
         <DCC_N>false</DCC_N>
         <DCC_F>false</DCC_F>
         <DCC_K>false</DCC_K>
+        <DCC_DcpOutput>..\..\Dcp\$(Platform)</DCC_DcpOutput>
+        <DCC_BplOutput>..\..\Bpl\$(Platform)</DCC_BplOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
