@@ -32,7 +32,7 @@
 {$IMPLICITBUILD OFF}
 
 requires
-  DesignIDE,
+  DesignIde,
   VirtualTreesR;
 
 contains

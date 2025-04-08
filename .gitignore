@@ -1,11 +1,8 @@
 # Compiled source #
 ###################
-*.dcu
 *.obj
 *.exe
-*.bpl
 *.bpi
-*.dcp
 *.rsm
 *.stat
 *.map
